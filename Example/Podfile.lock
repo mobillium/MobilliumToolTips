@@ -1,0 +1,16 @@
+PODS:
+  - MobilliumToolTips (0.1.0)
+
+DEPENDENCIES:
+  - MobilliumToolTips (from `../`)
+
+EXTERNAL SOURCES:
+  MobilliumToolTips:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobilliumToolTips: 2bc919b55ffee5bc5cb4add7977fb5a5ef9cd38f
+
+PODFILE CHECKSUM: 7db00eb6884cc16207793873298aa0e229bd6b4c
+
+COCOAPODS: 1.12.1
