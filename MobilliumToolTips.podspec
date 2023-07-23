@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
     
     s.homepage         = 'https://github.com/mobillium/MobilliumToolTips'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Mobillium' => 'info@mobillium.com' }
+    s.author           = { 'serkan' => 'srkanerkan@gmail.com' }
     s.source           = { :git => 'https://github.com/mobillium/MobilliumToolTips.git', :tag => s.version.to_s }
-    s.social_media_url = 'https://twitter.com/mobillium'
+    s.social_media_url = 'https://twitter.com/serkandSYM'
     s.ios.deployment_target = '13.0'
     s.swift_version = "5.0"
         
