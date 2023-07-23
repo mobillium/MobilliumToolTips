@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## MobilliumToolTips
 
-Copyright (c) 2023 evam-mobile-customer <aslanmsalih@gmail.com>
+Copyright (c) 2023 mobillium <info@mobillium.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

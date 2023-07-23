@@ -1,6 +1,6 @@
 # MobilliumToolTips
 
-[![CI Status](https://img.shields.io/travis/evam-mobile-customer/MobilliumToolTips.svg?style=flat)](https://travis-ci.org/evam-mobile-customer/MobilliumToolTips)
+[![CI Status](https://img.shields.io/travis/mobillium/MobilliumToolTips.svg?style=flat)](https://travis-ci.org/mobillium/MobilliumToolTips)
 [![Version](https://img.shields.io/cocoapods/v/MobilliumToolTips.svg?style=flat)](https://cocoapods.org/pods/MobilliumToolTips)
 [![License](https://img.shields.io/cocoapods/l/MobilliumToolTips.svg?style=flat)](https://cocoapods.org/pods/MobilliumToolTips)
 [![Platform](https://img.shields.io/cocoapods/p/MobilliumToolTips.svg?style=flat)](https://cocoapods.org/pods/MobilliumToolTips)
@@ -22,7 +22,7 @@ pod 'MobilliumToolTips'
 
 ## Author
 
-evam-mobile-customer, aslanmsalih@gmail.com
+mobillium, info@mobillium.com
 
 ## License
 
