@@ -53,7 +53,7 @@ extension GKTooltipViewController {
     private func showTip(with view: UIView) {
         gkTooltipPopup.configure(with: dataSource.gkTooltipPopupModels[currentNodeIndex])
         gkTooltipPopup.frame = gkTooltipPopup.getRect()
-        let preferences = getTipPrefences(bubbleHInset: gkTooltipPopup.bubleH, bubleVInset: gkTooltipPopup.bubleV)
+        let preferences = getTipPrefences(bubbleHInset: gkTooltipPopup.bubleH, bubbleVInset: gkTooltipPopup.bubleV)
         let tipView = EasyTipView(contentView: gkTooltipPopup, preferences: preferences, delegate: nil)
         tipView.show(forView: view)
         self.tipView = tipView
@@ -65,7 +65,7 @@ extension GKTooltipViewController {
     private func showTip(with barItem: UIBarItem) {
         gkTooltipPopup.configure(with: dataSource.gkTooltipPopupModels[currentNodeIndex])
         gkTooltipPopup.frame = gkTooltipPopup.getRect()
-        let preferences = getTipPrefences(bubbleHInset: gkTooltipPopup.bubleH, bubleVInset: gkTooltipPopup.bubleV)
+        let preferences = getTipPrefences(bubbleHInset: gkTooltipPopup.bubleH, bubbleVInset: gkTooltipPopup.bubleV)
         let tipView = EasyTipView(contentView: gkTooltipPopup, preferences: preferences, delegate: nil)
         tipView.show(forItem: barItem)
         self.tipView = tipView
@@ -74,7 +74,7 @@ extension GKTooltipViewController {
         gkTooltipPopup.updatePadding(by: (self.tipView?.preferences.drawing.arrowPosition)!)
     }
     
-    private func getTipPrefences(bubbleHInset: CGFloat, bubleVInset: CGFloat) -> EasyTipView.Preferences {
+    private func getTipPrefences(bubbleHInset: CGFloat, bubbleVInset: CGFloat) -> EasyTipView.Preferences {
         var preferences = EasyTipView.globalPreferences
         preferences.drawing.backgroundColor = .pureWhite
         preferences.drawing.cornerRadius = 10
@@ -87,7 +87,7 @@ extension GKTooltipViewController {
         preferences.animating.dismissDuration = GKTooltip.popupAnimationDuration
         
         preferences.positioning.bubbleHInset = bubbleHInset
-        preferences.positioning.bubbleVInset = 32
+        preferences.positioning.bubbleVInset = bubbleVInset
         
         return preferences
     }
