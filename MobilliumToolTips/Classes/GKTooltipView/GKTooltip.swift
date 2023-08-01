@@ -34,6 +34,7 @@ public final class GKTooltip {
     public init() {}
     
     public func startIntro(from controller: UIViewController,
+                           presentController: UIViewController,
                            with scrollView: UIScrollView? = nil,
                            withNodes nodes: [GKTooltipNode],
                            isHighlightedWithOneNode: Bool = false) {
@@ -42,14 +43,7 @@ public final class GKTooltip {
         gkTooltipVC.delegate = delegate
         gkTooltipVC.popupDelegate = popupDelegate
         gkTooltipVC.scrollView = scrollView
-        if controller == UIApplication.topViewController() {
-            print("Presenting gkTooltipVC")
-            controller.present(gkTooltipVC,
-                               animated: true,
-                               completion: nil)
-        } else {
-            print("controller is not top view controller")
-        }
+        presentController.present(gkTooltipVC, animated: true, completion: nil)
         print("startIntro method called with nodes: \(nodes)")
     }
 

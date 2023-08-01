@@ -47,7 +47,7 @@ extension ViewController {
     
     private func configureTooltips() {
         let gkTooltip = GKTooltip()
-        gkTooltip.startIntro(from: self, withNodes: self.getGKTooltipNodes(), isHighlightedWithOneNode: true)
+        gkTooltip.startIntro(from: self, presentController: self, withNodes: self.getGKTooltipNodes(), isHighlightedWithOneNode: true)
         
     }
 }
