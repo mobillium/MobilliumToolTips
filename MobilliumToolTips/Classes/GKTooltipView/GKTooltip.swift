@@ -64,6 +64,14 @@ public final class GKTooltip {
     public func dismissGKTooltip() {
         gkTooltipVC.dismissGKTooltip()
     }
+
+    public func nextGKTooltip() {
+        gkTooltipVC.nextGKTooltip()
+    }
+    
+    public func previousGKTooltip() {
+        gkTooltipVC.previousGKTooltip()
+    }
     
     private let gkTooltipVC = GKTooltipViewController()
 }
