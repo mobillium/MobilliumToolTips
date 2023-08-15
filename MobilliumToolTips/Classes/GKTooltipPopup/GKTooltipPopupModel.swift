@@ -26,7 +26,10 @@ public struct GKTooltipPopupModel {
     var rightButtonType: ButtonType
     var rightButtonTintColor: UIColor
     var isRightButtonHidden: Bool = false
-
+    
+    // frame configuration
+    var frameConfiguration: GKTooltipPopupModel.FrameConfigurationType
+    
     init(
          tooltipText: String,
          currentPage: Int,
@@ -36,7 +39,8 @@ public struct GKTooltipPopupModel {
          leftButtonType: ButtonType,
          rightButtonType: ButtonType,
          leftButtonTintColor: UIColor,
-         rightButtonTintColor: UIColor) {
+         rightButtonTintColor: UIColor,
+         frameConfiguration: GKTooltipPopupModel.FrameConfigurationType = .default) {
         self.tooltipText = tooltipText
         self.currentPage = currentPage
         self.numberOfCount = numberOfCount
@@ -46,6 +50,7 @@ public struct GKTooltipPopupModel {
         self.rightButtonText = rightButtonText
         self.rightButtonType = rightButtonType
         self.rightButtonTintColor = rightButtonTintColor
+        self.frameConfiguration = frameConfiguration
     }
     
     public enum ButtonType {
@@ -54,4 +59,10 @@ public struct GKTooltipPopupModel {
         case next
         case close
     }
+    
+    public enum FrameConfigurationType {
+        case `default`
+        case custom(dx: CGFloat, dy: CGFloat, cornerRadius: CGFloat)
+        case none
+     }
 }
