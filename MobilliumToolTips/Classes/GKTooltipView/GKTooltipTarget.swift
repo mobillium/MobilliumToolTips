@@ -38,22 +38,40 @@ public enum GKTooltipTarget {
         }
         return target
     }
-
+    
     func path(node: GKTooltipNode, translater: UIView) -> UIBezierPath {
         let translatedFrame = targetView.convert(targetView.bounds, to: translater)
+        var cornerRadius: CGFloat
+        var dx: CGFloat
+        var dy: CGFloat
         
         // Add some breathing space for the tooltip
-        let gkTooltipFrame = translatedFrame.insetBy(dx: -6.0, dy: -6.0)
-
+        switch node.frameConfiguration {
+        case .`default`:
+            dx = 6
+            dy = 6
+            cornerRadius = 2
+        case .custom(let dxValue, let dyValue, let cornerRadiusValue):
+            dx = dxValue
+            dy = dyValue
+            cornerRadius = cornerRadiusValue
+        case .none:
+            dx = 0
+            dy = 0
+            cornerRadius = 0
+        }
+        let gkTooltipFrame = translatedFrame.insetBy(dx: -dy, dy: -dx)
+        
         if node.roundedCorners {
             return UIBezierPath(roundedRect: gkTooltipFrame,
                                 cornerRadius: gkTooltipFrame.height / 2.0)
         } else {
             return UIBezierPath(roundedRect: gkTooltipFrame,
-                                cornerRadius: 2)
+                                cornerRadius: cornerRadius)
         }
     }
-
+    
+    
     func infinitesmalPath(node: GKTooltipNode, translater: UIView) -> UIBezierPath {
         let gkTooltipFrame = targetView.convert(targetView.bounds, to: translater)
         let gkTooltipCenter = CGPoint(x: gkTooltipFrame.midX, y: gkTooltipFrame.midY)
