@@ -70,7 +70,7 @@ extension ViewController {
                                             rightButtonText: "txt_next",
                                             rightButtonType: .next,
                                             rightButtonTintColor: .primary,
-                                            frameConfiguration: .default)
+                                            frameConfiguration: .custom(dx: 0, dy: 0, cornerRadius: 6))
         nodes.append(testNodeButton1)
 
         let testNodeButton2 = GKTooltipNode(text: "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet\nLorem ipsum dolor sit amet,\n\nLorem ipsum dolor sit amet,",
@@ -85,7 +85,7 @@ extension ViewController {
                                             rightButtonText: "txt_again",
                                             rightButtonType: .again,
                                             rightButtonTintColor: .pureBlack,
-                                            frameConfiguration: .none)
+                                            frameConfiguration: .custom(dx: 4, dy: 4, cornerRadius: 8))
 
         nodes.append(testNodeButton2)
         

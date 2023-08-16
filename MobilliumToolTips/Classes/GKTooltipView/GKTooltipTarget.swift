@@ -50,7 +50,7 @@ public enum GKTooltipTarget {
         case .`default`:
             dx = 6
             dy = 6
-            cornerRadius = 2
+            cornerRadius = 6
         case .custom(let dxValue, let dyValue, let cornerRadiusValue):
             dx = dxValue
             dy = dyValue
