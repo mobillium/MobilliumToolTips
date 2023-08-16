@@ -30,12 +30,14 @@ final class GKTooltipView: UIView {
     }
 
     func appear(_ node: GKTooltipNode, duration: TimeInterval = GKTooltip.animationDuration) -> CGRect {
+        setBorderConfigure(node.borderConfiguration)
         maskLayer.add(appearAnimation(duration, node: node, isMaskPath: true), forKey: nil)
         borderLayer.add(appearAnimation(duration, node: node, isMaskPath: false), forKey: nil)
         return node.target.targetView.frame
     }
 
     func disappear(_ node: GKTooltipNode, duration: TimeInterval = GKTooltip.animationDuration) -> CGRect {
+        setBorderConfigure(node.borderConfiguration)
         maskLayer.add(disappearAnimation(duration, node: node, isMaskPath: true), forKey: nil)
         borderLayer.add(disappearAnimation(duration, node: node, isMaskPath: false), forKey: nil)
         return node.target.targetView.frame
@@ -50,6 +52,19 @@ final class GKTooltipView: UIView {
         }
         return toNode.target.targetView.frame
     }
+    
+    private func setBorderConfigure(_ borderConfiguration: GKTooltipPopupModel.BorderConfigurationType) {
+        switch borderConfiguration {
+        case .default:
+            borderLayer.fillColor =  UIColor.clear.cgColor
+            borderLayer.strokeColor = UIColor.lightGray.cgColor
+            borderLayer.lineWidth = 3.0
+        case .custom(let fillColor, let strokeColor, let width):
+            borderLayer.fillColor =  fillColor.cgColor
+            borderLayer.strokeColor = strokeColor.cgColor
+            borderLayer.lineWidth = width
+        }
+    }
 
     fileprivate lazy var maskLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
@@ -61,16 +76,13 @@ final class GKTooltipView: UIView {
     fileprivate lazy var borderLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.fillRule = CAShapeLayerFillRule.nonZero
-        layer.fillColor = UIColor.clear.cgColor
-        layer.strokeColor = UIColor.lightGray.cgColor
-        layer.lineWidth = 3.0
-
         return layer
     }()
 }
 
 private extension GKTooltipView {
     func moveDirect(_ toNode: GKTooltipNode, duration: TimeInterval = GKTooltip.animationDuration) {
+        setBorderConfigure(toNode.borderConfiguration)
         maskLayer.add(moveAnimation(duration, toNode: toNode, isMaskPath: true), forKey: nil)
         borderLayer.add(moveAnimation(duration, toNode: toNode, isMaskPath: false), forKey: nil)
     }

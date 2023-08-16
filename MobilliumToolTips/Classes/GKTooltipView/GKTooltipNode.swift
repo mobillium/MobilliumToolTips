@@ -23,7 +23,8 @@ public struct GKTooltipNode {
     var rightButtonType: GKTooltipPopupModel.ButtonType
     var rightButtonTintColor: UIColor
     
-    var frameConfiguration:  GKTooltipPopupModel.FrameConfigurationType
+    var frameConfiguration: GKTooltipPopupModel.FrameConfigurationType
+    var borderConfiguration: GKTooltipPopupModel.BorderConfigurationType
 
     public init(
          text: String,
@@ -38,7 +39,8 @@ public struct GKTooltipNode {
          rightButtonText: String,
          rightButtonType: GKTooltipPopupModel.ButtonType,
          rightButtonTintColor: UIColor,
-         frameConfiguration: GKTooltipPopupModel.FrameConfigurationType = .default)
+         frameConfiguration: GKTooltipPopupModel.FrameConfigurationType = .default,
+         borderConfiguration: GKTooltipPopupModel.BorderConfigurationType = .default)
     {
         self.text = text
         self.target = target
@@ -53,5 +55,6 @@ public struct GKTooltipNode {
         self.rightButtonType = rightButtonType
         self.rightButtonTintColor = rightButtonTintColor
         self.frameConfiguration = frameConfiguration
+        self.borderConfiguration = borderConfiguration
     }
 }
