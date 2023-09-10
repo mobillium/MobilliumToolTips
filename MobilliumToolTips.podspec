@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'MobilliumToolTips'
-    s.version          = '1.0.6'
+    s.version          = '1.0.7'
     s.summary          = 'Simplify the user journey with customizable step-by-step guides'
     
     s.description      = <<-DESC
