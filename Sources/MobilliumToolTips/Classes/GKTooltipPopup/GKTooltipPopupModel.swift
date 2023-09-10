@@ -30,6 +30,9 @@ public struct GKTooltipPopupModel {
     // frame configuration
     var frameConfiguration: GKTooltipPopupModel.FrameConfigurationType
     var borderConfiguration: GKTooltipPopupModel.BorderConfigurationType
+    
+    // completion handler
+    var completionHandler: (() -> ())?
 
     init(
          tooltipText: String,
@@ -42,7 +45,8 @@ public struct GKTooltipPopupModel {
          leftButtonTintColor: UIColor,
          rightButtonTintColor: UIColor,
          frameConfiguration: GKTooltipPopupModel.FrameConfigurationType = .default,
-         borderConfiguration: GKTooltipPopupModel.BorderConfigurationType = .default) {
+         borderConfiguration: GKTooltipPopupModel.BorderConfigurationType = .default,
+         completionHandler: (() -> ())? = nil) {
         self.tooltipText = tooltipText
         self.currentPage = currentPage
         self.numberOfCount = numberOfCount
@@ -54,6 +58,7 @@ public struct GKTooltipPopupModel {
         self.rightButtonTintColor = rightButtonTintColor
         self.frameConfiguration = frameConfiguration
         self.borderConfiguration = borderConfiguration
+        self.completionHandler = completionHandler
     }
     
     public enum ButtonType {
