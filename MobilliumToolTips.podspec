@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
     s.swift_version = "5.0"
         
     s.source_files = [
-    'MobilliumToolTips/Classes/**/*',
-    'Resources/Fonts/**/*',
-    'Resources/Colors/**/*',
-    'Resources/Assets/**/*'
+    'Sources/MobilliumToolTips/Classes/**/*',
+    'Sources/Resources/Fonts/**/*',
+    'Sources/Resources/Colors/**/*',
+    'Sources/Resources/Assets/**/*'
     ]
     s.resources = [
     'MobilliumToolTips/Assets/*.xcassets',
