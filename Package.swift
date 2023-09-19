@@ -20,11 +20,11 @@ let package = Package(
         .target(
             name: "MobilliumToolTips",
             dependencies: ["MobilliumBuilders", "TinyConstraints"],
-            path: "Sources/MobilliumToolTips",
+            path: "Sources",
             resources: [
-                .process("Fonts"),
-                .process("Colors"),
-                .process("Assets")
+                .process("MobilliumToolTips/Fonts"),
+                .process("MobilliumToolTips/Colors"),
+                .process("MobilliumToolTips/Assets")
             ]
         )
     ]
