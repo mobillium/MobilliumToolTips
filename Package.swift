@@ -1,4 +1,3 @@
-// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -22,7 +21,7 @@ let package = Package(
             dependencies: ["MobilliumBuilders", "TinyConstraints"],
             path: "Sources",
             resources: [
-                .process("MobilliumToolTips/*")
+                .process("MobilliumToolTips/Assets/*")
             ]
         )
     ]

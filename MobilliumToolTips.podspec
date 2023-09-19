@@ -16,18 +16,13 @@ Pod::Spec.new do |s|
     s.swift_version = "5.0"
         
     s.source_files = [
-    'Sources/MobilliumToolTips/Classes/**/*',
-    'Sources/Resources/Fonts/**/*',
-    'Sources/Resources/Colors/**/*',
-    'Sources/Resources/Assets/**/*'
+        'Sources/MobilliumToolTips/Classes/**/*',
+        'Sources/MobilliumToolTips/Assets/*'
     ]
-    s.resources = [
-    'MobilliumToolTips/Assets/*.xcassets',
-    'Resources/Fonts/*.otf'
-    ]
+    
     s.frameworks = [
-    'Foundation',
-    'UIKit'
+        'Foundation',
+        'UIKit'
     ]
     s.dependency 'MobilliumBuilders', '~> 1.5'
     s.dependency 'TinyConstraints', '~> 4.0'
