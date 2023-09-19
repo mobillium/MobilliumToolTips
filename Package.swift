@@ -22,9 +22,7 @@ let package = Package(
             dependencies: ["MobilliumBuilders", "TinyConstraints"],
             path: "Sources",
             resources: [
-                .process("MobilliumToolTips/Fonts"),
-                .process("MobilliumToolTips/Colors"),
-                .process("MobilliumToolTips/Assets")
+                .process("MobilliumToolTips/*")
             ]
         )
     ]
