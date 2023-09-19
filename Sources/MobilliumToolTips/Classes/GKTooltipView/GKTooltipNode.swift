@@ -25,6 +25,7 @@ public struct GKTooltipNode {
     
     var frameConfiguration: GKTooltipPopupModel.FrameConfigurationType
     var borderConfiguration: GKTooltipPopupModel.BorderConfigurationType
+    var completionHandler: (() -> ())?
 
     public init(
          text: String,
@@ -40,8 +41,8 @@ public struct GKTooltipNode {
          rightButtonType: GKTooltipPopupModel.ButtonType,
          rightButtonTintColor: UIColor,
          frameConfiguration: GKTooltipPopupModel.FrameConfigurationType = .default,
-         borderConfiguration: GKTooltipPopupModel.BorderConfigurationType = .default)
-    {
+         borderConfiguration: GKTooltipPopupModel.BorderConfigurationType = .default,
+         completionHandler: (() -> ())? = nil) {
         self.text = text
         self.target = target
         self.roundedCorners = roundedCorners
@@ -56,5 +57,6 @@ public struct GKTooltipNode {
         self.rightButtonTintColor = rightButtonTintColor
         self.frameConfiguration = frameConfiguration
         self.borderConfiguration = borderConfiguration
+        self.completionHandler = completionHandler
     }
 }

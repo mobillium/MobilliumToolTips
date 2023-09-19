@@ -85,6 +85,7 @@ extension GKTooltipViewController: GKTooltipPopupDelegate {
     
     @objc func viewTapped(_: UITapGestureRecognizer) {
         timer.invalidate()
+        executeGKTooltipCompletionHandler()
         nextGKTooltip()
     }
     
@@ -104,6 +105,11 @@ extension GKTooltipViewController: GKTooltipPopupDelegate {
         }
         currentNodeIndex -= 1
         showGKTooltip()
+    }
+    
+    func executeGKTooltipCompletionHandler() {
+        let node = dataSource.gkTooltipNodes[currentNodeIndex]
+        node.completionHandler?()
     }
     
     func showGKTooltip() {

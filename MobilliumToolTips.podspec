@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'MobilliumToolTips'
-    s.version          = '1.0.4'
+    s.version          = '1.0.7'
     s.summary          = 'Simplify the user journey with customizable step-by-step guides'
     
     s.description      = <<-DESC
@@ -16,18 +16,13 @@ Pod::Spec.new do |s|
     s.swift_version = "5.0"
         
     s.source_files = [
-    'MobilliumToolTips/Classes/**/*',
-    'Resources/Fonts/**/*',
-    'Resources/Colors/**/*',
-    'Resources/Assets/**/*'
+        'Sources/MobilliumToolTips/Classes/**/*',
+        'Sources/MobilliumToolTips/Assets/*'
     ]
-    s.resources = [
-    'MobilliumToolTips/Assets/*.xcassets',
-    'Resources/Fonts/*.otf'
-    ]
+    
     s.frameworks = [
-    'Foundation',
-    'UIKit'
+        'Foundation',
+        'UIKit'
     ]
     s.dependency 'MobilliumBuilders', '~> 1.5'
     s.dependency 'TinyConstraints', '~> 4.0'
