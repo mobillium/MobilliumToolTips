@@ -173,7 +173,6 @@
 				7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */,
 				7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */,
 				7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */,
-				7E8D3DAB2A6CA01700707BC3 /* Resources */,
 				69B4A86B944D6068B5169BBE3B72CB60 /* Pod */,
 				73C8FA93C65B9C8D73E49BA965C4CACB /* Support Files */,
 			);
@@ -229,37 +228,6 @@
 			);
 			name = "Pods-MobilliumToolTips_Example";
 			path = "Target Support Files/Pods-MobilliumToolTips_Example";
-			sourceTree = "<group>";
-		};
-		7E8D3DAB2A6CA01700707BC3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7E8D3DD82A6CA3DF00707BC3 /* Assets */,
-				7E8D3DD92A6CA3E400707BC3 /* Colors */,
-				7E8D3DD72A6CA3A500707BC3 /* Fonts */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7E8D3DD72A6CA3A500707BC3 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		7E8D3DD82A6CA3DF00707BC3 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		7E8D3DD92A6CA3E400707BC3 /* Colors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Colors;
 			sourceTree = "<group>";
 		};
 		848E0F098AD1945F9D75889B4D26F62E /* Pods-MobilliumToolTips_Tests */ = {
