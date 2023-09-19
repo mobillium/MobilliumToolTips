@@ -166,6 +166,13 @@
 				7E26D50A2AADDD1F006B09A1 /* UIApplication+Extension.swift */,
 				7E26D5052AADDD17006B09A1 /* Colors.xcassets */,
 				7E26D5062AADDD17006B09A1 /* Icons.xcassets */,
+				7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */,
+				7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */,
+				7E8D3DE42A6CA46200707BC3 /* Fonts.swift */,
+				7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */,
+				7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */,
+				7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */,
+				7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */,
 				7E8D3DAB2A6CA01700707BC3 /* Resources */,
 				69B4A86B944D6068B5169BBE3B72CB60 /* Pod */,
 				73C8FA93C65B9C8D73E49BA965C4CACB /* Support Files */,
@@ -237,11 +244,6 @@
 		7E8D3DD72A6CA3A500707BC3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				7E8D3DE42A6CA46200707BC3 /* Fonts.swift */,
-				7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */,
-				7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */,
-				7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */,
-				7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -249,7 +251,6 @@
 		7E8D3DD82A6CA3DF00707BC3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -257,7 +258,6 @@
 		7E8D3DD92A6CA3E400707BC3 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
