@@ -13,30 +13,30 @@
 		42D439484EFCE40C2825A8CBFC04C155 /* MobilliumToolTips-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9CD41B6F973010875E8A58B05E436B /* MobilliumToolTips-dummy.m */; };
 		446B44C528E3167FB5674F7A01955291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6F18618C8015E0B52AA0E8C865CB1CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7E8D3DBC2A6CA2D000707BC3 /* GKTooltipPopupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DB72A6CA2CF00707BC3 /* GKTooltipPopupModel.swift */; };
-		7E8D3DBD2A6CA2D000707BC3 /* EasytipView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DB82A6CA2CF00707BC3 /* EasytipView+Helper.swift */; };
-		7E8D3DBE2A6CA2D000707BC3 /* GKTooltipPopupViewConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DB92A6CA2CF00707BC3 /* GKTooltipPopupViewConstant.swift */; };
-		7E8D3DBF2A6CA2D000707BC3 /* GKTooltipPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DBA2A6CA2CF00707BC3 /* GKTooltipPopupView.swift */; };
-		7E8D3DC02A6CA2D000707BC3 /* EasytipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DBB2A6CA2D000707BC3 /* EasytipView.swift */; };
-		7E8D3DC92A6CA2D600707BC3 /* GKTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC12A6CA2D600707BC3 /* GKTooltipViewController.swift */; };
-		7E8D3DCA2A6CA2D600707BC3 /* GKTooltipTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC22A6CA2D600707BC3 /* GKTooltipTarget.swift */; };
-		7E8D3DCB2A6CA2D600707BC3 /* GKTooltipViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC32A6CA2D600707BC3 /* GKTooltipViewController+UISetup.swift */; };
-		7E8D3DCC2A6CA2D600707BC3 /* GKTooltipDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC42A6CA2D600707BC3 /* GKTooltipDataSource.swift */; };
-		7E8D3DCD2A6CA2D600707BC3 /* GKTooltipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC52A6CA2D600707BC3 /* GKTooltipNode.swift */; };
-		7E8D3DCE2A6CA2D600707BC3 /* GKTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC62A6CA2D600707BC3 /* GKTooltip.swift */; };
-		7E8D3DCF2A6CA2D600707BC3 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC72A6CA2D600707BC3 /* UIScrollView+Extensions.swift */; };
-		7E8D3DD02A6CA2D600707BC3 /* GKTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DC82A6CA2D600707BC3 /* GKTooltipView.swift */; };
-		7E8D3DDB2A6CA3EF00707BC3 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */; };
-		7E8D3DDD2A6CA3F400707BC3 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */; };
-		7E8D3DE12A6CA40800707BC3 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */; };
-		7E8D3DE22A6CA40800707BC3 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */; };
-		7E8D3DE32A6CA40800707BC3 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */; };
-		7E8D3DE72A6CA46200707BC3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE42A6CA46200707BC3 /* Fonts.swift */; };
-		7E8D3DE92A6CA46200707BC3 /* UIFont+Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */; };
-		7E8D3DEC2A6CA52D00707BC3 /* BundleToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DEB2A6CA52D00707BC3 /* BundleToken.swift */; };
-		7E8D3DEE2A6CA5CF00707BC3 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DED2A6CA5CF00707BC3 /* UIApplication+Extension.swift */; };
-		7EE6F6B92A6CACCC009ED251 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6F6B72A6CACCC009ED251 /* Colors.xcassets */; };
-		7EE6F6BA2A6CACCC009ED251 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6F6B82A6CACCC009ED251 /* Icons.xcassets */; };
+		7E26D5072AADDD17006B09A1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E26D5052AADDD17006B09A1 /* Colors.xcassets */; };
+		7E26D5082AADDD17006B09A1 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E26D5062AADDD17006B09A1 /* Icons.xcassets */; };
+		7E26D50B2AADDD1F006B09A1 /* BundleToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5092AADDD1F006B09A1 /* BundleToken.swift */; };
+		7E26D50C2AADDD1F006B09A1 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D50A2AADDD1F006B09A1 /* UIApplication+Extension.swift */; };
+		7E26D5122AADDD23006B09A1 /* EasytipView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D50D2AADDD23006B09A1 /* EasytipView+Helper.swift */; };
+		7E26D5132AADDD23006B09A1 /* EasytipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D50E2AADDD23006B09A1 /* EasytipView.swift */; };
+		7E26D5142AADDD23006B09A1 /* GKTooltipPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D50F2AADDD23006B09A1 /* GKTooltipPopupView.swift */; };
+		7E26D5152AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5102AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift */; };
+		7E26D5162AADDD23006B09A1 /* GKTooltipPopupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5112AADDD23006B09A1 /* GKTooltipPopupModel.swift */; };
+		7E26D51F2AADDD29006B09A1 /* GKTooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5172AADDD29006B09A1 /* GKTooltipView.swift */; };
+		7E26D5202AADDD29006B09A1 /* GKTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5182AADDD29006B09A1 /* GKTooltip.swift */; };
+		7E26D5212AADDD29006B09A1 /* GKTooltipDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D5192AADDD29006B09A1 /* GKTooltipDataSource.swift */; };
+		7E26D5222AADDD29006B09A1 /* GKTooltipTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51A2AADDD29006B09A1 /* GKTooltipTarget.swift */; };
+		7E26D5232AADDD29006B09A1 /* GKTooltipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51B2AADDD29006B09A1 /* GKTooltipNode.swift */; };
+		7E26D5242AADDD29006B09A1 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51C2AADDD29006B09A1 /* UIScrollView+Extensions.swift */; };
+		7E26D5252AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51D2AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift */; };
+		7E26D5262AADDD29006B09A1 /* GKTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51E2AADDD29006B09A1 /* GKTooltipViewController.swift */; };
+		7E891B2A2AB9BFE800E2A794 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */; };
+		7E891B2B2AB9BFE800E2A794 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */; };
+		7E891B2C2AB9BFE800E2A794 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */; };
+		7E891B322AB9C00100E2A794 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2D2AB9C00100E2A794 /* Fonts.swift */; };
+		7E891B332AB9C00100E2A794 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */; };
+		7E891B342AB9C00100E2A794 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */; };
+		7E891B362AB9C00100E2A794 /* UIFont+Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */; };
 		A4101F5B445E4ACE1CCC14BC21A0AF5E /* Pods-MobilliumToolTips_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEB4B31CEFE48996AD32E38DCF1A571 /* Pods-MobilliumToolTips_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD261BEE50DA729CBDE355B63E8E369 /* Pods-MobilliumToolTips_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3970F72CEB8DD77C413173AA1FB04EDA /* Pods-MobilliumToolTips_Example-dummy.m */; };
 		EA9B37B0D914E8B9742A3421CEA9AF79 /* Pods-MobilliumToolTips_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D5AF2C96C16009B01B17961923D1A /* Pods-MobilliumToolTips_Tests-dummy.m */; };
@@ -73,30 +73,30 @@
 		64348D61F02EC1C331D37374E5CE8A18 /* Pods-MobilliumToolTips_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobilliumToolTips_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		749A5A6CF037D4269174FF199B0E18AB /* MobilliumToolTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumToolTips.debug.xcconfig; sourceTree = "<group>"; };
-		7E8D3DB72A6CA2CF00707BC3 /* GKTooltipPopupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupModel.swift; path = MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupModel.swift; sourceTree = "<group>"; };
-		7E8D3DB82A6CA2CF00707BC3 /* EasytipView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "EasytipView+Helper.swift"; path = "MobilliumToolTips/Classes/GKTooltipPopup/EasytipView+Helper.swift"; sourceTree = "<group>"; };
-		7E8D3DB92A6CA2CF00707BC3 /* GKTooltipPopupViewConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupViewConstant.swift; path = MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupViewConstant.swift; sourceTree = "<group>"; };
-		7E8D3DBA2A6CA2CF00707BC3 /* GKTooltipPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupView.swift; path = MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupView.swift; sourceTree = "<group>"; };
-		7E8D3DBB2A6CA2D000707BC3 /* EasytipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasytipView.swift; path = MobilliumToolTips/Classes/GKTooltipPopup/EasytipView.swift; sourceTree = "<group>"; };
-		7E8D3DC12A6CA2D600707BC3 /* GKTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipViewController.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController.swift; sourceTree = "<group>"; };
-		7E8D3DC22A6CA2D600707BC3 /* GKTooltipTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipTarget.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltipTarget.swift; sourceTree = "<group>"; };
-		7E8D3DC32A6CA2D600707BC3 /* GKTooltipViewController+UISetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GKTooltipViewController+UISetup.swift"; path = "MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController+UISetup.swift"; sourceTree = "<group>"; };
-		7E8D3DC42A6CA2D600707BC3 /* GKTooltipDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipDataSource.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltipDataSource.swift; sourceTree = "<group>"; };
-		7E8D3DC52A6CA2D600707BC3 /* GKTooltipNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipNode.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltipNode.swift; sourceTree = "<group>"; };
-		7E8D3DC62A6CA2D600707BC3 /* GKTooltip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltip.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltip.swift; sourceTree = "<group>"; };
-		7E8D3DC72A6CA2D600707BC3 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extensions.swift"; path = "MobilliumToolTips/Classes/GKTooltipView/UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
-		7E8D3DC82A6CA2D600707BC3 /* GKTooltipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipView.swift; path = MobilliumToolTips/Classes/GKTooltipView/GKTooltipView.swift; sourceTree = "<group>"; };
-		7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Icons.swift"; sourceTree = "<group>"; };
-		7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
-		7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
-		7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
-		7E8D3DE42A6CA46200707BC3 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Contants.swift"; sourceTree = "<group>"; };
-		7E8D3DEB2A6CA52D00707BC3 /* BundleToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BundleToken.swift; path = MobilliumToolTips/Classes/BundleToken.swift; sourceTree = "<group>"; };
-		7E8D3DED2A6CA5CF00707BC3 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "MobilliumToolTips/Classes/UIApplication+Extension.swift"; sourceTree = "<group>"; };
-		7EE6F6B72A6CACCC009ED251 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = MobilliumToolTips/Assets/Colors.xcassets; sourceTree = "<group>"; };
-		7EE6F6B82A6CACCC009ED251 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = MobilliumToolTips/Assets/Icons.xcassets; sourceTree = "<group>"; };
+		7E26D5052AADDD17006B09A1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = Sources/MobilliumToolTips/Assets/Colors.xcassets; sourceTree = "<group>"; };
+		7E26D5062AADDD17006B09A1 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = Sources/MobilliumToolTips/Assets/Icons.xcassets; sourceTree = "<group>"; };
+		7E26D5092AADDD1F006B09A1 /* BundleToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BundleToken.swift; path = Sources/MobilliumToolTips/Classes/BundleToken.swift; sourceTree = "<group>"; };
+		7E26D50A2AADDD1F006B09A1 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "Sources/MobilliumToolTips/Classes/UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		7E26D50D2AADDD23006B09A1 /* EasytipView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "EasytipView+Helper.swift"; path = "Sources/MobilliumToolTips/Classes/GKTooltipPopup/EasytipView+Helper.swift"; sourceTree = "<group>"; };
+		7E26D50E2AADDD23006B09A1 /* EasytipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasytipView.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipPopup/EasytipView.swift; sourceTree = "<group>"; };
+		7E26D50F2AADDD23006B09A1 /* GKTooltipPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupView.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupView.swift; sourceTree = "<group>"; };
+		7E26D5102AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupViewConstant.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupViewConstant.swift; sourceTree = "<group>"; };
+		7E26D5112AADDD23006B09A1 /* GKTooltipPopupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipPopupModel.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipPopup/GKTooltipPopupModel.swift; sourceTree = "<group>"; };
+		7E26D5172AADDD29006B09A1 /* GKTooltipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipView.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipView.swift; sourceTree = "<group>"; };
+		7E26D5182AADDD29006B09A1 /* GKTooltip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltip.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltip.swift; sourceTree = "<group>"; };
+		7E26D5192AADDD29006B09A1 /* GKTooltipDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipDataSource.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipDataSource.swift; sourceTree = "<group>"; };
+		7E26D51A2AADDD29006B09A1 /* GKTooltipTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipTarget.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipTarget.swift; sourceTree = "<group>"; };
+		7E26D51B2AADDD29006B09A1 /* GKTooltipNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipNode.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipNode.swift; sourceTree = "<group>"; };
+		7E26D51C2AADDD29006B09A1 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extensions.swift"; path = "Sources/MobilliumToolTips/Classes/GKTooltipView/UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		7E26D51D2AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GKTooltipViewController+UISetup.swift"; path = "Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController+UISetup.swift"; sourceTree = "<group>"; };
+		7E26D51E2AADDD29006B09A1 /* GKTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipViewController.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController.swift; sourceTree = "<group>"; };
+		7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-Regular.otf"; sourceTree = "<group>"; };
+		7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-Medium.otf"; sourceTree = "<group>"; };
+		7E891B2D2AB9C00100E2A794 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Sources/MobilliumToolTips/Classes/Fonts.swift; sourceTree = "<group>"; };
+		7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Icons.swift"; path = "Sources/MobilliumToolTips/Classes/UIImage+Icons.swift"; sourceTree = "<group>"; };
+		7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/MobilliumToolTips/Classes/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Contants.swift"; path = "Sources/MobilliumToolTips/Classes/UIFont+Contants.swift"; sourceTree = "<group>"; };
 		7EFDB2946D56914CF3B470CCDF63644A /* Pods-MobilliumToolTips_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobilliumToolTips_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8B9CD41B6F973010875E8A58B05E436B /* MobilliumToolTips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobilliumToolTips-dummy.m"; sourceTree = "<group>"; };
 		8E5A9B423770AEF5BA0CB2741C4EDDF3 /* Pods-MobilliumToolTips_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobilliumToolTips_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -149,24 +149,30 @@
 		4A21ECDCD6364A7791C53B2EFA680DF2 /* MobilliumToolTips */ = {
 			isa = PBXGroup;
 			children = (
-				7E8D3DBB2A6CA2D000707BC3 /* EasytipView.swift */,
-				7E8D3DB82A6CA2CF00707BC3 /* EasytipView+Helper.swift */,
-				7E8D3DB72A6CA2CF00707BC3 /* GKTooltipPopupModel.swift */,
-				7E8D3DBA2A6CA2CF00707BC3 /* GKTooltipPopupView.swift */,
-				7E8D3DB92A6CA2CF00707BC3 /* GKTooltipPopupViewConstant.swift */,
-				7E8D3DC62A6CA2D600707BC3 /* GKTooltip.swift */,
-				7E8D3DC42A6CA2D600707BC3 /* GKTooltipDataSource.swift */,
-				7E8D3DC52A6CA2D600707BC3 /* GKTooltipNode.swift */,
-				7E8D3DC22A6CA2D600707BC3 /* GKTooltipTarget.swift */,
-				7E8D3DC82A6CA2D600707BC3 /* GKTooltipView.swift */,
-				7E8D3DC12A6CA2D600707BC3 /* GKTooltipViewController.swift */,
-				7E8D3DC32A6CA2D600707BC3 /* GKTooltipViewController+UISetup.swift */,
-				7E8D3DC72A6CA2D600707BC3 /* UIScrollView+Extensions.swift */,
-				7E8D3DEB2A6CA52D00707BC3 /* BundleToken.swift */,
-				7E8D3DED2A6CA5CF00707BC3 /* UIApplication+Extension.swift */,
-				7EE6F6B72A6CACCC009ED251 /* Colors.xcassets */,
-				7EE6F6B82A6CACCC009ED251 /* Icons.xcassets */,
-				7E8D3DAB2A6CA01700707BC3 /* Resources */,
+				7E26D5182AADDD29006B09A1 /* GKTooltip.swift */,
+				7E26D5192AADDD29006B09A1 /* GKTooltipDataSource.swift */,
+				7E26D51B2AADDD29006B09A1 /* GKTooltipNode.swift */,
+				7E26D51A2AADDD29006B09A1 /* GKTooltipTarget.swift */,
+				7E26D5172AADDD29006B09A1 /* GKTooltipView.swift */,
+				7E26D51E2AADDD29006B09A1 /* GKTooltipViewController.swift */,
+				7E26D51D2AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift */,
+				7E26D51C2AADDD29006B09A1 /* UIScrollView+Extensions.swift */,
+				7E26D50E2AADDD23006B09A1 /* EasytipView.swift */,
+				7E26D50D2AADDD23006B09A1 /* EasytipView+Helper.swift */,
+				7E26D5112AADDD23006B09A1 /* GKTooltipPopupModel.swift */,
+				7E26D50F2AADDD23006B09A1 /* GKTooltipPopupView.swift */,
+				7E26D5102AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift */,
+				7E26D5092AADDD1F006B09A1 /* BundleToken.swift */,
+				7E26D50A2AADDD1F006B09A1 /* UIApplication+Extension.swift */,
+				7E891B2D2AB9C00100E2A794 /* Fonts.swift */,
+				7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */,
+				7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */,
+				7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */,
+				7E26D5052AADDD17006B09A1 /* Colors.xcassets */,
+				7E26D5062AADDD17006B09A1 /* Icons.xcassets */,
+				7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */,
+				7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */,
+				7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */,
 				69B4A86B944D6068B5169BBE3B72CB60 /* Pod */,
 				73C8FA93C65B9C8D73E49BA965C4CACB /* Support Files */,
 			);
@@ -222,44 +228,6 @@
 			);
 			name = "Pods-MobilliumToolTips_Example";
 			path = "Target Support Files/Pods-MobilliumToolTips_Example";
-			sourceTree = "<group>";
-		};
-		7E8D3DAB2A6CA01700707BC3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7E8D3DD82A6CA3DF00707BC3 /* Assets */,
-				7E8D3DD92A6CA3E400707BC3 /* Colors */,
-				7E8D3DD72A6CA3A500707BC3 /* Fonts */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7E8D3DD72A6CA3A500707BC3 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				7E8D3DE42A6CA46200707BC3 /* Fonts.swift */,
-				7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */,
-				7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */,
-				7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */,
-				7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		7E8D3DD82A6CA3DF00707BC3 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		7E8D3DD92A6CA3E400707BC3 /* Colors */ = {
-			isa = PBXGroup;
-			children = (
-				7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */,
-			);
-			path = Colors;
 			sourceTree = "<group>";
 		};
 		848E0F098AD1945F9D75889B4D26F62E /* Pods-MobilliumToolTips_Tests */ = {
@@ -463,11 +431,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8D3DE22A6CA40800707BC3 /* Inter-Regular.otf in Resources */,
-				7EE6F6B92A6CACCC009ED251 /* Colors.xcassets in Resources */,
-				7E8D3DE12A6CA40800707BC3 /* Inter-Medium.otf in Resources */,
-				7E8D3DE32A6CA40800707BC3 /* Inter-SemiBold.otf in Resources */,
-				7EE6F6BA2A6CACCC009ED251 /* Icons.xcassets in Resources */,
+				7E26D5072AADDD17006B09A1 /* Colors.xcassets in Resources */,
+				7E891B2B2AB9BFE800E2A794 /* Inter-Regular.otf in Resources */,
+				7E26D5082AADDD17006B09A1 /* Icons.xcassets in Resources */,
+				7E891B2C2AB9BFE800E2A794 /* Inter-Medium.otf in Resources */,
+				7E891B2A2AB9BFE800E2A794 /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,26 +446,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8D3DBD2A6CA2D000707BC3 /* EasytipView+Helper.swift in Sources */,
-				7E8D3DBC2A6CA2D000707BC3 /* GKTooltipPopupModel.swift in Sources */,
-				7E8D3DCC2A6CA2D600707BC3 /* GKTooltipDataSource.swift in Sources */,
-				7E8D3DCE2A6CA2D600707BC3 /* GKTooltip.swift in Sources */,
-				7E8D3DD02A6CA2D600707BC3 /* GKTooltipView.swift in Sources */,
-				7E8D3DC92A6CA2D600707BC3 /* GKTooltipViewController.swift in Sources */,
-				7E8D3DBE2A6CA2D000707BC3 /* GKTooltipPopupViewConstant.swift in Sources */,
-				7E8D3DE92A6CA46200707BC3 /* UIFont+Contants.swift in Sources */,
-				7E8D3DE72A6CA46200707BC3 /* Fonts.swift in Sources */,
-				7E8D3DCA2A6CA2D600707BC3 /* GKTooltipTarget.swift in Sources */,
-				7E8D3DDB2A6CA3EF00707BC3 /* UIImage+Icons.swift in Sources */,
-				7E8D3DCF2A6CA2D600707BC3 /* UIScrollView+Extensions.swift in Sources */,
-				7E8D3DEC2A6CA52D00707BC3 /* BundleToken.swift in Sources */,
+				7E26D5262AADDD29006B09A1 /* GKTooltipViewController.swift in Sources */,
+				7E26D5122AADDD23006B09A1 /* EasytipView+Helper.swift in Sources */,
+				7E26D5132AADDD23006B09A1 /* EasytipView.swift in Sources */,
+				7E26D5202AADDD29006B09A1 /* GKTooltip.swift in Sources */,
+				7E26D5222AADDD29006B09A1 /* GKTooltipTarget.swift in Sources */,
+				7E26D50B2AADDD1F006B09A1 /* BundleToken.swift in Sources */,
+				7E26D5212AADDD29006B09A1 /* GKTooltipDataSource.swift in Sources */,
+				7E891B322AB9C00100E2A794 /* Fonts.swift in Sources */,
 				42D439484EFCE40C2825A8CBFC04C155 /* MobilliumToolTips-dummy.m in Sources */,
-				7E8D3DDD2A6CA3F400707BC3 /* UIColor+Extensions.swift in Sources */,
-				7E8D3DC02A6CA2D000707BC3 /* EasytipView.swift in Sources */,
-				7E8D3DCD2A6CA2D600707BC3 /* GKTooltipNode.swift in Sources */,
-				7E8D3DCB2A6CA2D600707BC3 /* GKTooltipViewController+UISetup.swift in Sources */,
-				7E8D3DEE2A6CA5CF00707BC3 /* UIApplication+Extension.swift in Sources */,
-				7E8D3DBF2A6CA2D000707BC3 /* GKTooltipPopupView.swift in Sources */,
+				7E26D5152AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift in Sources */,
+				7E891B342AB9C00100E2A794 /* UIColor+Extensions.swift in Sources */,
+				7E26D50C2AADDD1F006B09A1 /* UIApplication+Extension.swift in Sources */,
+				7E26D51F2AADDD29006B09A1 /* GKTooltipView.swift in Sources */,
+				7E26D5162AADDD23006B09A1 /* GKTooltipPopupModel.swift in Sources */,
+				7E891B362AB9C00100E2A794 /* UIFont+Contants.swift in Sources */,
+				7E26D5242AADDD29006B09A1 /* UIScrollView+Extensions.swift in Sources */,
+				7E891B332AB9C00100E2A794 /* UIImage+Icons.swift in Sources */,
+				7E26D5232AADDD29006B09A1 /* GKTooltipNode.swift in Sources */,
+				7E26D5142AADDD23006B09A1 /* GKTooltipPopupView.swift in Sources */,
+				7E26D5252AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
