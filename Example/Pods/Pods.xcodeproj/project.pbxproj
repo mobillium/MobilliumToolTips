@@ -30,13 +30,13 @@
 		7E26D5242AADDD29006B09A1 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51C2AADDD29006B09A1 /* UIScrollView+Extensions.swift */; };
 		7E26D5252AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51D2AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift */; };
 		7E26D5262AADDD29006B09A1 /* GKTooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E26D51E2AADDD29006B09A1 /* GKTooltipViewController.swift */; };
-		7E8D3DDB2A6CA3EF00707BC3 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */; };
-		7E8D3DDD2A6CA3F400707BC3 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */; };
-		7E8D3DE12A6CA40800707BC3 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */; };
-		7E8D3DE22A6CA40800707BC3 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */; };
-		7E8D3DE32A6CA40800707BC3 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */; };
-		7E8D3DE72A6CA46200707BC3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE42A6CA46200707BC3 /* Fonts.swift */; };
-		7E8D3DE92A6CA46200707BC3 /* UIFont+Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */; };
+		7E891B2A2AB9BFE800E2A794 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */; };
+		7E891B2B2AB9BFE800E2A794 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */; };
+		7E891B2C2AB9BFE800E2A794 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */; };
+		7E891B322AB9C00100E2A794 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2D2AB9C00100E2A794 /* Fonts.swift */; };
+		7E891B332AB9C00100E2A794 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */; };
+		7E891B342AB9C00100E2A794 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */; };
+		7E891B362AB9C00100E2A794 /* UIFont+Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */; };
 		A4101F5B445E4ACE1CCC14BC21A0AF5E /* Pods-MobilliumToolTips_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEB4B31CEFE48996AD32E38DCF1A571 /* Pods-MobilliumToolTips_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBD261BEE50DA729CBDE355B63E8E369 /* Pods-MobilliumToolTips_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3970F72CEB8DD77C413173AA1FB04EDA /* Pods-MobilliumToolTips_Example-dummy.m */; };
 		EA9B37B0D914E8B9742A3421CEA9AF79 /* Pods-MobilliumToolTips_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 627D5AF2C96C16009B01B17961923D1A /* Pods-MobilliumToolTips_Tests-dummy.m */; };
@@ -90,13 +90,13 @@
 		7E26D51C2AADDD29006B09A1 /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extensions.swift"; path = "Sources/MobilliumToolTips/Classes/GKTooltipView/UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
 		7E26D51D2AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GKTooltipViewController+UISetup.swift"; path = "Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController+UISetup.swift"; sourceTree = "<group>"; };
 		7E26D51E2AADDD29006B09A1 /* GKTooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKTooltipViewController.swift; path = Sources/MobilliumToolTips/Classes/GKTooltipView/GKTooltipViewController.swift; sourceTree = "<group>"; };
-		7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Icons.swift"; sourceTree = "<group>"; };
-		7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
-		7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
-		7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
-		7E8D3DE42A6CA46200707BC3 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Contants.swift"; sourceTree = "<group>"; };
+		7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-Regular.otf"; sourceTree = "<group>"; };
+		7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Medium.otf"; path = "Sources/MobilliumToolTips/Assets/Inter-Medium.otf"; sourceTree = "<group>"; };
+		7E891B2D2AB9C00100E2A794 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Sources/MobilliumToolTips/Classes/Fonts.swift; sourceTree = "<group>"; };
+		7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Icons.swift"; path = "Sources/MobilliumToolTips/Classes/UIImage+Icons.swift"; sourceTree = "<group>"; };
+		7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/MobilliumToolTips/Classes/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Contants.swift"; path = "Sources/MobilliumToolTips/Classes/UIFont+Contants.swift"; sourceTree = "<group>"; };
 		7EFDB2946D56914CF3B470CCDF63644A /* Pods-MobilliumToolTips_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobilliumToolTips_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8B9CD41B6F973010875E8A58B05E436B /* MobilliumToolTips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobilliumToolTips-dummy.m"; sourceTree = "<group>"; };
 		8E5A9B423770AEF5BA0CB2741C4EDDF3 /* Pods-MobilliumToolTips_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobilliumToolTips_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -164,15 +164,15 @@
 				7E26D5102AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift */,
 				7E26D5092AADDD1F006B09A1 /* BundleToken.swift */,
 				7E26D50A2AADDD1F006B09A1 /* UIApplication+Extension.swift */,
+				7E891B2D2AB9C00100E2A794 /* Fonts.swift */,
+				7E891B2F2AB9C00100E2A794 /* UIColor+Extensions.swift */,
+				7E891B312AB9C00100E2A794 /* UIFont+Contants.swift */,
+				7E891B2E2AB9C00100E2A794 /* UIImage+Icons.swift */,
 				7E26D5052AADDD17006B09A1 /* Colors.xcassets */,
 				7E26D5062AADDD17006B09A1 /* Icons.xcassets */,
-				7E8D3DDA2A6CA3EF00707BC3 /* UIImage+Icons.swift */,
-				7E8D3DDC2A6CA3F400707BC3 /* UIColor+Extensions.swift */,
-				7E8D3DE42A6CA46200707BC3 /* Fonts.swift */,
-				7E8D3DE62A6CA46200707BC3 /* UIFont+Contants.swift */,
-				7E8D3DDE2A6CA40800707BC3 /* Inter-Medium.otf */,
-				7E8D3DDF2A6CA40800707BC3 /* Inter-Regular.otf */,
-				7E8D3DE02A6CA40800707BC3 /* Inter-SemiBold.otf */,
+				7E891B292AB9BFE800E2A794 /* Inter-Medium.otf */,
+				7E891B282AB9BFE800E2A794 /* Inter-Regular.otf */,
+				7E891B272AB9BFE800E2A794 /* Inter-SemiBold.otf */,
 				69B4A86B944D6068B5169BBE3B72CB60 /* Pod */,
 				73C8FA93C65B9C8D73E49BA965C4CACB /* Support Files */,
 			);
@@ -431,11 +431,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8D3DE22A6CA40800707BC3 /* Inter-Regular.otf in Resources */,
 				7E26D5072AADDD17006B09A1 /* Colors.xcassets in Resources */,
-				7E8D3DE12A6CA40800707BC3 /* Inter-Medium.otf in Resources */,
-				7E8D3DE32A6CA40800707BC3 /* Inter-SemiBold.otf in Resources */,
+				7E891B2B2AB9BFE800E2A794 /* Inter-Regular.otf in Resources */,
 				7E26D5082AADDD17006B09A1 /* Icons.xcassets in Resources */,
+				7E891B2C2AB9BFE800E2A794 /* Inter-Medium.otf in Resources */,
+				7E891B2A2AB9BFE800E2A794 /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,20 +449,20 @@
 				7E26D5262AADDD29006B09A1 /* GKTooltipViewController.swift in Sources */,
 				7E26D5122AADDD23006B09A1 /* EasytipView+Helper.swift in Sources */,
 				7E26D5132AADDD23006B09A1 /* EasytipView.swift in Sources */,
-				7E8D3DE92A6CA46200707BC3 /* UIFont+Contants.swift in Sources */,
 				7E26D5202AADDD29006B09A1 /* GKTooltip.swift in Sources */,
 				7E26D5222AADDD29006B09A1 /* GKTooltipTarget.swift in Sources */,
 				7E26D50B2AADDD1F006B09A1 /* BundleToken.swift in Sources */,
-				7E8D3DE72A6CA46200707BC3 /* Fonts.swift in Sources */,
-				7E8D3DDB2A6CA3EF00707BC3 /* UIImage+Icons.swift in Sources */,
 				7E26D5212AADDD29006B09A1 /* GKTooltipDataSource.swift in Sources */,
+				7E891B322AB9C00100E2A794 /* Fonts.swift in Sources */,
 				42D439484EFCE40C2825A8CBFC04C155 /* MobilliumToolTips-dummy.m in Sources */,
 				7E26D5152AADDD23006B09A1 /* GKTooltipPopupViewConstant.swift in Sources */,
-				7E8D3DDD2A6CA3F400707BC3 /* UIColor+Extensions.swift in Sources */,
+				7E891B342AB9C00100E2A794 /* UIColor+Extensions.swift in Sources */,
 				7E26D50C2AADDD1F006B09A1 /* UIApplication+Extension.swift in Sources */,
 				7E26D51F2AADDD29006B09A1 /* GKTooltipView.swift in Sources */,
 				7E26D5162AADDD23006B09A1 /* GKTooltipPopupModel.swift in Sources */,
+				7E891B362AB9C00100E2A794 /* UIFont+Contants.swift in Sources */,
 				7E26D5242AADDD29006B09A1 /* UIScrollView+Extensions.swift in Sources */,
+				7E891B332AB9C00100E2A794 /* UIImage+Icons.swift in Sources */,
 				7E26D5232AADDD29006B09A1 /* GKTooltipNode.swift in Sources */,
 				7E26D5142AADDD23006B09A1 /* GKTooltipPopupView.swift in Sources */,
 				7E26D5252AADDD29006B09A1 /* GKTooltipViewController+UISetup.swift in Sources */,
